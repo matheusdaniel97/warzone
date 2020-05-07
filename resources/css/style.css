@@ -1,0 +1,61 @@
+header, footer{
+    background-color: #111111;
+}
+
+main{
+    background-image: url("../images/backgound.jpg");
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+    color: #dddddd;
+    padding: 20px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navegacao{
+    width: 40%;
+}
+
+.navegacao-lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #dddddd;
+    font-size: 30px;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+}
+
+.qr{
+    width: 70px;
+    height: 70px;
+}
+
+h4{
+    font-size: 40px;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+h5{
+    font-size: 20px;
+}
