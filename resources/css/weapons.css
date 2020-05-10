@@ -1,0 +1,95 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search input{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+table{
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+tbody{
+    width: 100%;
+}
+
+tr{
+    border: solid;
+    height: 20px;
+}
+
+td, th{
+    border: dotted;
+    height: 20px;
+}
+
+th{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.item-weapon{
+    width: 50%;
+    text-align: start;
+}
+
+.item-rpm, .item-closeDamage, .item-closeDPS, .farDamage, .farDPS{
+    width: 10%;
+}
+
+.formWeapon h2{
+    margin-top: 20px;
+}
+
+.dataForm{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+}
+
+label{
+    font-size: 25px;
+    width: 165px;
+    margin: 10px 0;
+}
+
+input{
+    height: 20px;
+    margin-right: 55%;
+    width: 25%;
+}
+
+input:nth-child(2){
+    margin-right: 10%;
+    width: 65%;
+}
+
+.submitForm{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
