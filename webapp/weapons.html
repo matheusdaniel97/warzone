@@ -34,126 +34,145 @@
                         <input type="text" name="search" placeholder="🔍">
                     </div>
                     <table>
-                        <tr>
-                            <th class="item-weapon">
-                                Weapon
-                            </th>
-                            <th class="item-rpm">
-                                RPM
-                            </th>
-                            <th class="item-closeDamage">
-                                Close damage
-                            </th>
-                            <th class="item-closeDPS">
-                                Close DPS
-                            </th>
-                            <th class="item-farDamage">
-                                Far damage
-                            </th>
-                            <th class="item-farDPS">
-                                Far DPS
-                            </th>
-                        </tr>
-                        <tr>
-                            <td class="item-weapon">
-                                RAM-7
-                            </td>
-                            <td class="item-rpm">
-                                860
-                            </td>
-                            <td class="item-closeDamage">
-                                42
-                            </td>
-                            <td class="item-closeDPS">
-                                580
-                            </td>
-                            <td class="item-farDamage">
-                                18
-                            </td>
-                            <td class="item-farDPS">
-                                260
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="item-weapon">
-                                Bruen MK9
-                            </td>
-                            <td class="item-rpm">
-                                650
-                            </td>
-                            <td class="item-closeDamage">
-                                34
-                            </td>
-                            <td class="item-closeDPS">
-                                350
-                            </td>
-                            <td class="item-farDamage">
-                                24
-                            </td>
-                            <td class="item-farDPS">
-                                300
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="item-weapon">
-                                MK2 Carbine
-                            </td>
-                            <td class="item-rpm">
-                                40
-                            </td>
-                            <td class="item-closeDamage">
-                                50
-                            </td>
-                            <td class="item-closeDPS">
-                                310
-                            </td>
-                            <td class="item-farDamage">
-                                40
-                            </td>
-                            <td class="item-farDPS">
-                                260
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="item-weapon">
-                                MP7
-                            </td>
-                            <td class="item-rpm">
-                                950
-                            </td>
-                            <td class="item-closeDamage">
-                                25
-                            </td>
-                            <td class="item-closeDPS">
-                                650
-                            </td>
-                            <td class="item-farDamage">
-                                16
-                            </td>
-                            <td class="item-farDPS">
-                                320
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="item-weapon">
-                                MG34
-                            </td>
-                            <td class="item-rpm">
-                                850
-                            </td>
-                            <td class="item-closeDamage">
-                                34
-                            </td>
-                            <td class="item-closeDPS">
-                                680
-                            </td>
-                            <td class="item-farDamage">
-                                30
-                            </td>
-                            <td class="item-farDPS">
-                                420
-                            </td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th class="item-weapon">
+                                    Weapon
+                                </th>
+                                <th class="item-rpm">
+                                    RPM
+                                </th>
+                                <th class="item-closeDamage">
+                                    Close damage
+                                </th>
+                                <th class="item-closeDPS">
+                                    Close DPS
+                                </th>
+                                <th class="item-farDamage">
+                                    Far damage
+                                </th>
+                                <th class="item-farDPS">
+                                    Far DPS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-weapon">
+                            <tr class="weapon">
+                                <td class="item-weapon">
+                                    RAM-7
+                                </td>
+                                <td class="item-rpm">
+                                    860
+                                </td>
+                                <td class="item-closeDamage">
+                                    42
+                                </td>
+                                <td class="item-closeDPS">
+                                    580
+                                </td>
+                                <td class="item-farDamage">
+                                    18
+                                </td>
+                                <td class="item-farDPS">
+                                    260
+                                </td>
+                                <td class="item-delete">
+                                    🗑️
+                                </td>
+                            </tr>
+                            <tr class="weapon">
+                                <td class="item-weapon">
+                                    Bruen MK9
+                                </td>
+                                <td class="item-rpm">
+                                    650
+                                </td>
+                                <td class="item-closeDamage">
+                                    34
+                                </td>
+                                <td class="item-closeDPS">
+                                    350
+                                </td>
+                                <td class="item-farDamage">
+                                    24
+                                </td>
+                                <td class="item-farDPS">
+                                    300
+                                </td>
+                                <td class="item-delete">
+                                    🗑️
+                                </td>
+                            </tr>
+                            <tr class="weapon">
+                                <td class="item-weapon">
+                                    MK2 Carbine
+                                </td>
+                                <td class="item-rpm">
+                                    40
+                                </td>
+                                <td class="item-closeDamage">
+                                    50
+                                </td>
+                                <td class="item-closeDPS">
+                                    310
+                                </td>
+                                <td class="item-farDamage">
+                                    40
+                                </td>
+                                <td class="item-farDPS">
+                                    260
+                                </td>
+                                <td class="item-delete">
+                                    🗑️
+                                </td>
+                            </tr>
+                            <tr class="weapon">
+                                <td class="item-weapon">
+                                    MP7
+                                </td>
+                                <td class="item-rpm">
+                                    950
+                                </td>
+                                <td class="item-closeDamage">
+                                    25
+                                </td>
+                                <td class="item-closeDPS">
+                                    650
+                                </td>
+                                <td class="item-farDamage">
+                                    16
+                                </td>
+                                <td class="item-farDPS">
+                                    320
+                                </td>
+                                <td class="item-delete">
+                                    🗑️
+                                </td>
+                            </tr>
+                            <tr class="weapon">
+                                <td class="item-weapon">
+                                    MG34
+                                </td>
+                                <td class="item-rpm">
+                                    850
+                                </td>
+                                <td class="item-closeDamage">
+                                    34
+                                </td>
+                                <td class="item-closeDPS">
+                                    680
+                                </td>
+                                <td class="item-farDamage">
+                                    30
+                                </td>
+                                <td class="item-farDPS">
+                                    420
+                                </td>
+                                <td class="item-delete">
+                                    🗑️
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </section>
                 <section class="addWeapon">
@@ -172,7 +191,7 @@
                             <input type="number" name="farDamage" placeholder="Input far damage">
                         </div>
                         <div class="submitForm">
-                            <button>Insert new weapon</button>
+                            <button id="insertWeapon">Insert new weapon</button>
                             <button>Collect data in another website</button>
                         </div>
                     </form>
@@ -190,6 +209,8 @@
 					Study Project
 				</h5>
 			</div>
-		</footer>
+        </footer>
+        <script src="../resources/js/calculaDps.js"></script>
+        <script src="../resources/js/addWeapon.js"></script>
 	</body>
 </html>
